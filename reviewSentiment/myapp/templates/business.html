@@ -1,0 +1,10 @@
+{% extends "base.html" %} {% block content %}
+<h1> Business Analytics </h1>
+    {% for bus in buses %}
+        
+        <br/>
+        <h2>{{bus.name}}</h2>
+        <p>Yelp URL: {{ bus.yelp_url }}</p>
+        <p>Average Yelp Review Sentiment: {{ bus.avg_sentiment }}</p>
+    {% endfor %}
+{% endblock %}

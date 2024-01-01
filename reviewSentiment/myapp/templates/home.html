@@ -1,0 +1,15 @@
+{% extends "base.html" %} {% block title %} Home Page {% endblock %}
+{% block content%}
+<br/>
+<br/>
+<h1>Businesses:</h1>
+<br/>
+  {% if buses %}
+    <ul>
+      {% for bus in buses %}
+        <li>{{ bus.name }}</li>
+      {% endfor %}
+  {% else %}
+    <p>No businesses available.</p>
+  {% endif %}
+{% endblock %}
