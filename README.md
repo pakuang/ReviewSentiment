@@ -3,7 +3,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/pakuang/reviewSentiment">
-    <img src="READMEAssets/logo.png" alt="Logo" width="80" height="80">
+    <img src="READMEAssets/logo.svg" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Business Sentiment Analyzer</h3>
