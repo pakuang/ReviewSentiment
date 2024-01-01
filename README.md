@@ -3,7 +3,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/pakuang/reviewSentiment">
-    <img src="READMEAssets/emsIcon.png" alt="Logo" width="80" height="80">
+    <img src="READMEAssets/logo.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Business Sentiment Analyzer</h3>
@@ -11,14 +11,14 @@
   <p align="center">
     Business analytics hub based in Django with a SQLite3 database. Yelp Review sentiment analysis supported through PyTorch, Hugging Face Transformers and pre-trained BERT model. Data parsed using BeautifulSoup. 
     <br />
-    <a href="https://github.com/pakuang/reviewSentiment"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/pakuang/ReviewSentiment"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/pakuang/reviewSentiment">View Demo</a>
+    <a href="https://github.com/pakuang/ReviewSentiment">View Demo</a>
     ·
-    <a href="https://github.com/pakuang/reviewSentiment/issues">Report Bug</a>
+    <a href="https://github.com/pakuang/ReviewSentiment/issues">Report Bug</a>
     ·
-    <a href="https://github.com/pakuang/reviewSentiment/issues">Request Feature</a>
+    <a href="https://github.com/pakuang/ReviewSentiment/issues">Request Feature</a>
   </p>
 </div>
 
@@ -106,7 +106,7 @@ To get a local copy up and running follow these simple example steps.
    ```
 3. Enter your SECRET_KEY in .env
    ```python
-    SECRET_KEY=Enter secret key here
+    SECRET_KEY= #Enter secret key here
 
    ```
 5. Run the development server in project directory:
